@@ -1,0 +1,122 @@
+#buk{
+    /* background-image: url("https://i.pinimg.com/originals/01/00/3a/01003af3cacf7f7eb9e643367a389b86.jpg"); */
+  background-color: lightseagreen;
+    background-size :100%;
+    background-position:cover; 
+}
+ #masthead {
+    min-height:199px;
+    background-color:goldenrod;
+    color:#aaaacc;
+  }
+  
+  #masthead h1 {
+    font-size: 55px;
+    line-height: 1;
+    color:#fefeff;
+    margin-top:50px;
+  }
+  
+  #masthead .well {
+    margin-top:31px;
+    background-color:transparent;
+    border-color:transparent;
+    color:transparent;
+    min-height:127px;
+  }
+  #topPanel {
+    padding-top:0px;
+    padding-left:22px;
+    padding-right:22px;
+  }
+  #topPanel .panel-body {
+    padding-top:0px;
+  }
+  .navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+    color:#ccccdd;
+    font-size:14px;
+    text-transform: uppercase;
+    letter-spacing:.08em;
+  }
+  
+  .navbar-bright li > a:hover {
+    background-color:#000044;
+  }
+  
+  .dropdown-menu {
+    min-width: 250px;
+  }
+  #title{
+    font-family: cursive;
+    font-weight: bold;
+    color:maroon;
+    font-size:30px;
+  }
+  #read{
+    font-size:20px;
+    color:crimson;
+  
+  }
+   #read:hover{
+    color:blue;
+    background-color:yellow;
+  }
+  #back{
+    background-size :cover;
+    background-position:center ;
+  
+  }
+  .caret {
+    color:#fff;
+  }
+  
+  .navbar-toggle {
+    color:#fff;
+    border-width:0;
+  }
+  
+  .navbar-toggle:hover {
+    background-color:transparent;
+  }
+  
+  .panel {
+    border-color:transparent;
+    border-radius:0;
+  }
+  
+  .thumbnail {
+    margin-bottom:8px;
+  }
+  
+  .img-container {
+    overflow:hidden;
+    height:170px;
+  }
+  
+  .img-container img {
+    min-width:280px;
+    min-height:180px;
+    max-width:380px;
+    max-height:280px;
+  }
+  
+  .txt-container {
+    overflow:hidden;
+    height:100px;
+  }
+  
+  .panel .lead {
+    overflow:hidden;
+    height:90px;
+  }
+  
+  .label-float{
+    margin:0 auto;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width:100%;
+    opacity:.9;
+    padding:6px;
+    color:#fff;
+  } 

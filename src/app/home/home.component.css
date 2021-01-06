@@ -1,0 +1,22 @@
+/* homepage */
+/* background-image: url("paper.gif"); */
+
+#home{
+    background-image: url("https://i.pinimg.com/originals/01/00/3a/01003af3cacf7f7eb9e643367a389b86.jpg");
+    background-size :100%;
+    background-position:cover; 
+  
+  }
+  
+  
+  #lib{
+      margin-top:20px;
+    color:yellow;
+    text-align: center;
+    font-size: 60px;
+  }
+  .des{
+    text-align: justify;
+    padding:20px;
+    color:whitesmoke;
+  }

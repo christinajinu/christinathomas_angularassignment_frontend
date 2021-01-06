@@ -1,0 +1,43 @@
+
+
+      <div class="container-fluid">
+  
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+          
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              
+              <form id="log" (ngSubmit)="AddAuthor()"> 
+               
+                 <h2>NEW AUTHOR ADDITION</h2><br>
+                 <div class="form-group">
+                    <label>Id of the Author</label>
+                    <input type ="text" class="form-control" name="authorid"  [(ngModel)]="authorItem.authorid"><br>   
+                  </div>
+                <div class="form-group">
+                  <label>Name of the Author</label>
+                  <input type ="text" class="form-control" name="name"  [(ngModel)]="authorItem.name"><br>   
+                </div>
+                
+                <div class="form-group">
+                  <label>Genre of the Book</label>
+                  <input type ="text" class="form-control" name="genre" [(ngModel)]="authorItem.genre"><br>   
+                </div> 
+                <div class="form-group">
+                    <label>Books of the Author</label>
+                    <input type ="text" class="form-control" name="books" [(ngModel)]="authorItem.books"><br>
+                  </div>
+                <div class="form-group">
+                  <label>Add Image</label>
+                <input type ="file"name="image" [(ngModel)]="authorItem.image"><br>
+                
+                </div>
+                <input type="submit" value="Submit">
+                <!-- <input  /> -->
+                <!-- <input type="submit" value="Submit" id="submits">Add</input> -->
+              </form>
+            </div>
+               
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+           
+      </div>

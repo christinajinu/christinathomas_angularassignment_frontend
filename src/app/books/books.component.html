@@ -1,0 +1,78 @@
+
+<div class='card' id="buk">
+    <div class='card-header'>
+     
+    </div>
+        <div id="masthead">  
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <h1> Books
+                    <p class="lead"></p>
+                  </h1>
+                </div>
+                <div class="col-md-5">
+                  <div class="well well-lg"> 
+                    <div class="row">
+                      <div class="col-sm-12">
+                        
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div><!-- /cont -->
+            
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="top-spacer"> </div>
+                </div>
+              </div> 
+            </div><!-- /cont -->
+            
+          </div>
+          
+          
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-16"> 
+                
+                <div class="panel">
+                  <div class="panel-body">
+                    
+                    
+                    
+                    <!--/stories-->
+                   
+                    <div class="row" *ngFor='let book of books' >    
+                      <br>
+                      <div class="col-md-2 col-sm-3 text-center">
+                        <a class="story-title" ><img alt="" [src]=
+                          'book.image'
+                            [style.width.px] = 'imageWidth' 
+                    [style.height.px] = 'imageHeight'
+                        
+                            class="img-circle"></a>
+                      </div>
+                      <div class="col-md-10 col-sm-9">
+                        <h3 id="title">title: {{book.title}}</h3>
+                        <div class="row">
+                          <div class="col-xs-9">
+                            <h3 id="author"><span class="label label-default">Author: {{book.author}}</span></h3>
+                              <h3 id="genre"> <span class="label label-default">Genre: {{book.genre}}</span></h3><br>
+                              <button class="btn btn-warning" style="cursor:pointer"  (click)="editBook(book)" style="margin-left: 20px;"> Edit</button>
+                              <button class="btn btn-danger" style="cursor:pointer" (click)="deleteBook(book)"> Delete</button>
+                              <button class="btn btn-success" style="cursor:pointer" (click)="readMore(book)"> Read More</button>
+                              <!-- <a class="button" routerLink="/heroes-list">Heroes</a> -->
+                              <!-- <a href="/books/<%=books[i]._id%>" id="read" class="text-muted">Read More</a></small> -->
+                            </div>
+                          <div class="col-xs-3"></div>
+                        </div>
+                        <br><br>
+                      </div>
+                    </div>
+                    
+                    <hr>
